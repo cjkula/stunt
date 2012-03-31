@@ -29,10 +29,10 @@ The test reads normally in Ruby, but behind the curtains, Stunt calls the Javasc
 
 <pre>
     window.TestObjects[0] = new MyClass();  // the index is returned and tracked in the Ruby proxy object
-	...
+	// ...
     window.TestObjects[0].someMethod();     // underscore notation is translated to JavaScript-style names
-<pre>
+</pre>
 
 A whole lotta convention over configuration going on here. : )
 
-This started off as a tool to assist in the development of Cipher (https://github.com/cjkula/cipher-lang), but I hope that others might be able to get some use from it for various purposes.
+This started off as a tool to assist in the development of Cipher (https://github.com/cjkula/cipher-lang), but I hope that others might be able to get some use out of it for different purposes.
