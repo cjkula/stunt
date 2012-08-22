@@ -1,5 +1,3 @@
-PRE-RELEASE COMMIT: Here's some info, but there's not much to see in the files yet.
-
 https://rubygems.org/gems/stunt
 <pre>
 gem install stunt --pre
